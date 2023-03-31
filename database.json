@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Habitación Estándar",
+        "price": 29000,
+        "img": "./Eric_Schroeder_07-1536x1025.jpg",
+        "caracteristicas": "Habitación acogedora con una cama doble cómoda, baño privado con ducha, aire acondicionado, TV de pantalla plana, minibar y caja fuerte. Wifi gratuito disponible en toda la habitación. Perfecta para huéspedes que buscan un alojamiento cómodo y asequible."
+    },
+    {
+        "name": "Habitación Doble con Balcón",
+        "price": 39000,
+        "img": "/Eric_Schroeder_07-1536x1025.jpg",
+        "caracteristicas": "Habitación amplia y luminosa con una cama doble cómoda, baño privado con ducha, aire acondicionado, TV de pantalla plana, minibar y caja fuerte. Dispone de un balcón privado con vistas al jardín del hotel. Wifi gratuito disponible en toda la habitación. Ideal para parejas que buscan un ambiente relajante y confortable."
+    },
+    {
+        "name": "Habitación Triple Familiar",
+        "price": 39000,
+        "img": "/Eric_Schroeder_07-1536x1025.jpg",
+        "caracteristicas": "Habitación espaciosa con una cama doble y una cama individual, baño privado con ducha, aire acondicionado, TV de pantalla plana, minibar y caja fuerte. Wifi gratuito disponible en toda la habitación. Perfecta para familias o grupos de amigos que buscan un alojamiento cómodo y funcional."
+    },
+    {
+        "name": "Suite Junior con Vista al Mar",
+        "price": 39000,
+        "img": "/Eric_Schroeder_07-1536x1025.jpg",
+        "caracteristicas": "Suite elegante y lujosa con una cama doble king size, baño privado con bañera y ducha, aire acondicionado, TV de pantalla plana, minibar y caja fuerte. Dispone de un amplio balcón con vistas espectaculares al mar. Wifi gratuito disponible en toda la habitación. Perfecta para huéspedes que buscan una estancia de lujo y confort."
+    },
+    {
+        "name": "Suite Presidencial",
+        "price": 49000,
+        "img": "/Eric_Schroeder_07-1536x1025.jpg",
+        "caracteristicas": "La suite más exclusiva del hotel, cuenta con una cama doble king size, baño privado con bañera y ducha, aire acondicionado, TV de pantalla plana, minibar y caja fuerte. Dispone de una amplia sala de estar y un balcón con vistas espectaculares al mar. Wifi gratuito disponible en toda la habitación. Perfecta para huéspedes que buscan la máxima comodidad y privacidad."
+    }
+]
