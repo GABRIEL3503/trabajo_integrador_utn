@@ -109,7 +109,7 @@ body {
     
     color: white;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 30px;
     border: 7px solid #daae36;
     position: relative;
     top: 50%;
@@ -203,6 +203,7 @@ h1 {
 }
 
 .nosotros_tarjeta {
+    width: 35vh;
     text-align: center;
     margin: 9px;
     padding: 12px;
