@@ -22,11 +22,6 @@
         "price": 39000,
         "img": "/Eric_Schroeder_07-1536x1025.jpg",
         "caracteristicas": "Suite elegante y lujosa con una cama doble king size, baño privado con bañera y ducha, aire acondicionado, TV de pantalla plana, minibar y caja fuerte. Dispone de un amplio balcón con vistas espectaculares al mar. Wifi gratuito disponible en toda la habitación. Perfecta para huéspedes que buscan una estancia de lujo y confort."
-    },
-    {
-        "name": "Suite Presidencial",
-        "price": 49000,
-        "img": "/Eric_Schroeder_07-1536x1025.jpg",
-        "caracteristicas": "La suite más exclusiva del hotel, cuenta con una cama doble king size, baño privado con bañera y ducha, aire acondicionado, TV de pantalla plana, minibar y caja fuerte. Dispone de una amplia sala de estar y un balcón con vistas espectaculares al mar. Wifi gratuito disponible en toda la habitación. Perfecta para huéspedes que buscan la máxima comodidad y privacidad."
     }
+   
 ]
