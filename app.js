@@ -38,9 +38,9 @@ fetch(URL_API)
       <div class="nosotros_tarjeta">
         <h3>Nombre: ${personaje.name.first}</h3>
         <h3>Apellido: ${personaje.name.last}</h3>
-        <h4>Telefono:${personaje.cell}</h4>
-        <h4>Email: ${personaje.email}</h4> 
-        <h4>Edad: ${personaje.dob.age}</h4> 
+        <h5>Telefono:${personaje.cell}</h5>
+        <h5>Email: ${personaje.email}</h5> 
+        <h5>Edad: ${personaje.dob.age}</h5> 
           <img class="foto_perfil" src="${personaje.picture.large}" alt="">
         
        </div>`

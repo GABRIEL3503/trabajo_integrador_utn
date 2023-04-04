@@ -14,6 +14,7 @@
 </head>
 
 <body>
+    <header>
     <!-- nav -->
     <div class="topnav" id="myTopnav">
         <a href="index.html"> <img class="logo" src="img/image-removebg-preview.png" alt=""> </a>
@@ -28,40 +29,81 @@
             <i class="bi bi-list"></i>
         </a>
     </div>
+</header>
+<main>
     <!-- hero-image -->
-
-    <div>
-
+   
         <div class="portada img1">
             <div class="portada-text">Tu hogar lejos de casa</div>
         </div>
-
-    </div>se
-    <!-- hacaerca de nosotros -->
-
-    <div class="servicios">
-        <div class="titulo">
-            <h1> Servicios</h1>
-            <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ipsam iusto quam voluptatum est?
-            </h2>
-        </div>
-        <div class="container-servicios">
-            <div class="lista">
-                <ul>
-                    <li>Elemento 1</li>
-                    <li>Elemento 2</li>
-                    <li>Elemento 3</li>
-                    <li>Elemento 1</li>
-                    <li>Elemento 2</li>
-                    <li>Elemento 3</li>
-                </ul>
-
+        
+        <section id="home">
+            <div class="titulo">
+                <h1>Random Hotel</h1>
             </div>
-            <div class="imagen">
-                <img class="nosotros-img" src="img/loby-.jpg" alt="loby_del_hotel">
+            <div class="text">
+                Random es una cadena de hoteles de lujo que se enorgullece de ofrecer una experiencia única y personalizada a sus huéspedes. Desde sus habitaciones y suites de alta calidad hasta su servicio de atención al cliente excepcional, Random se esfuerza por brindar una estadía inolvidable a todos sus huéspedes.
+                <br>
+                La cadena cuenta con una amplia variedad de hoteles en destinos populares de todo el mundo, como Nueva York, París, Tokio, Dubai y muchas otras ciudades. Cada uno de los hoteles de Random se caracteriza por su diseño innovador y elegante, que combina elementos modernos con un toque de tradición local.
+                <br>
+                La gastronomía es una parte esencial de la experiencia en Random. Los huéspedes pueden disfrutar de una amplia variedad de platos de la cocina internacional en sus restaurantes exclusivos, así como de cócteles artesanales y vinos de alta calidad en sus bares y salones.
+                <br>
+                En cuanto a las instalaciones y servicios, Random cuenta con piscinas de ensueño, gimnasios completamente equipados, spas de lujo y salas de reuniones y eventos de alta tecnología. Además, su servicio de atención al cliente es excepcional, y su equipo está siempre dispuesto a ayudar a los huéspedes en todo lo que necesiten.
+                <br>
+                En resumen, Random es una cadena de hoteles de lujo que ofrece una experiencia inolvidable a sus huéspedes en algunos de los destinos más populares del mundo. Desde su diseño innovador y elegante hasta su gastronomía excepcional y servicio de atención al cliente de primera clase, Random es una opción perfecta para aquellos que buscan una experiencia única y personalizada durante su estadía en un hotel de lujo.
             </div>
-        </div>
-    </div>
+        </section>
+        <section class="servicios" id="servicios">
+                <div class="titulo">
+                    <h1> Servicios</h1>
+                    <p>El Hotel Random cuenta con todo lo necesario para vivir una experiencia única.</p>
+                </div>
+                <div class="container-servicios">
+                        <div class="item">                            
+                            <img src="./img/desayuno.svg" alt="medialuna">
+                            <p>Desayuno buffet</p>
+                        </div>
+                        <div class="item">                            
+                            <img src="./img/cafe.svg" alt="taza de cafe">
+                            <p>Café de bienvenida</p>
+                        </div>
+                        <div class="item">                            
+                            <img src="./img/estacionamiento.svg" alt="auto">
+                            <p>Cochera cubierta</p>
+                        </div>
+                        <div class="item">                            
+                            <img src="./img/gimnasio.svg" alt="pesas de gimnasio">
+                            <p>Gimnasio</p>
+                        </div>
+                        <div class="item">                            
+                            <img src="./img/business.svg" alt="hombre con traje">
+                            <p>Business Center</p>
+                        </div>
+                        <div class="item">                            
+                            <img src="./img/health.svg" alt="flor">
+                            <p>Health Club</p>
+                        </div>
+                </div>
+        </section>
+        <section class="galeria" id="galeria">
+            <div class="titulo">
+                <h1> Galeria</h1>
+            </div>
+            <div class="imagenes">
+                    <img src="./img/pexels-chris-goodwin-32870.jpg" alt="piscina del hotel">
+                    <img src="./img/pexels-pixabay-164595.jpg" alt="Habitacion cama matrimonial">
+                    <img src="./img/pexels-engin-akyurt-1579253.jpg" alt="servicio de habitacion">
+                    <img src="./img/pexels-jonathan-borba-3316922.jpg" alt="sala de estar">
+                    <img src="./img/pexels-max-rahubovskiy-8082549.jpg" alt="baño">
+                    <img src="./img/pexels-quang-nguyen-vinh-14012238.jpg" alt="piscina">
+                    <img src="./img/pexels-engin-akyurt-2771927.jpg" alt="cliente desayunando en hotel">
+                    <img src="./img/pexels-matheus-bertelli-13871291.jpg" alt="desayuno">
+            </div>
+        </section>
+        
+        
+  
+
 
     <!-- seccion habitaciones -->
     <div class="titulo">
@@ -82,8 +124,39 @@
     
     </div>
 
+    <section class="contacto" id="contacto">
+        <div class="titulo">
+            <h1>Contacto</h1>
+            <p>Envíenos su consulta por la vía que le resulte más cómoda.<br> Nuestro equipo de colaboradores están atentos a sus comentarios.</p>
+        </div>
+        <form action="" id="formulario" class="formulario">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+        
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono">
+        
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+        
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+    <div id="contenedorUsuarios">
 
-
+    </div>
+</main>
+<footer>
+    <div class="redesSociales">
+        <i class="bi bi-envelope"></i>
+        <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram iconI"></i></a>
+        <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook iconF"></i></a>
+        <i class="bi bi-whatsapp"></i>
+    </div>
+</footer>
     <script src="app.js"></script>
 </body>
 
