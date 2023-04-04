@@ -381,9 +381,7 @@ footer{
     .item img{
         width: 50px;
     }
-    .nosotros_tarjeta img {
-        display: none;
-    }
+
 }
 
 @media screen and (max-width: 600px) {
