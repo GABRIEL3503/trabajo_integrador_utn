@@ -127,42 +127,56 @@
     
     </div>
 </section>
+<!-- Formulario de reseva -->
+<section class="reserva" id="reserva">
+    <div class="titulo">
+        <h1>Reservación</h1>
+        <p class="text">¡Te invitamos a llenar nuestro formulario de reserva para disfrutar de una experiencia inolvidable en nuestro hotel!</p>
+    </div>
+    <form action="" id="formulario" class="formulario">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Pepito Nakatushi" required>
+    
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" placeholder="pepito@gmail.com" required>
+    
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" placeholder="+54 1153243546" required>
 
-    <section class="contacto" id="contacto">
-        <div class="titulo">
-            <h1>Contacto</h1>
-            <p>Envíenos su consulta por la vía que le resulte más cómoda.<br> Nuestro equipo de colaboradores están atentos a sus comentarios.</p>
-        </div>
-        <form action="" id="formulario" class="formulario">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
+        <label for="llegada">Fecha de llegada:</label>
+        <input type="date" id="llegada" name="llegada" required>
         
-            <label for="email">Correo electrónico:</label>
-            <input type="email" id="email" name="email" required>
+        <label for="salida">Fecha de salida:</label>
+        <input type="date" id="salida" name="salida" required>
         
-            <label for="telefono">Teléfono:</label>
-            <input type="tel" id="telefono" name="telefono">
-        
-            <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje" required></textarea>
-        
-            <input type="submit" value="Enviar">
-        </form>
-    </section>
+        <label for="habitacion">Tipo de habitación:</label>
+        <select id="habitacion" name="habitacion">
+            <option value="Estandar">Estándar</option>
+            <option value="Doble">Doble con Balcón</option>
+            <option value="Familiar">Triple Familiar</option>
+            <option value="Suite">Suite Junior con Vista al Mar</option>
+        </select>
+    
+        <label for="mensaje">Comentario:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+    
+        <input type="submit" value="Reservar">
+    </form>
+</section>
+<!-- Reservas -->
     <div id="contenedorUsuarios">
 
     </div>
 </main>
 <footer>
-    <div class="redesSociales">
-        <i class="bi bi-envelope"></i>
-        <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram iconI"></i></a>
-        <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook iconF"></i></a>
-        <i class="bi bi-whatsapp"></i>
+    <a href="index.html"><img src="./img/image-removebg-preview.png"></a>
+    <div class="redesSociales" id="contacto">
+        <i class="bi bi-envelope icon"></i>
+        <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram icon"></i></a>
+        <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook icon"></i></a>
+        <a href="https://www.whatsapp.com/?lang=es"><i class="bi bi-whatsapp icon"></i></a>
     </div>
 </footer>
     <script src="app.js"></script>
 </body>
-
-
 </html>

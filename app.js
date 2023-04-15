@@ -48,3 +48,44 @@ fetch(URL_API)
     }
   })
 
+  // formulario
+const usuarios = []
+
+const formularioRegistro = document.querySelector(".formulario")
+
+const contenedorHTML = document.querySelector("#contenedorUsuarios")
+
+const renderizarUsuarios = () => {
+  contenedorHTML.innerHTML = ""
+  for(const usuario of usuarios){
+    contenedorHTML.innerHTML += `
+      <div class = card-usuario>
+        <h3>Reservación para:</h3>
+        <p>Nombre: <strong>${usuario.nombre}</strong></p>
+        <p><strong>Email:</strong> ${usuario.email}</p>
+        <p><strong>Telefono:</strong> ${usuario.telefono}</p>
+        <p><strong>Fecha de llegada:</strong> ${usuario.llegada}</p>
+        <p><strong>Fecha de salida:</strong> ${usuario.salida}</p>
+        <p><strong>Habitación:</strong> ${usuario.habitacion}</p>
+        <p><strong>Comentario:</strong> ${usuario.mensaje}</p>
+      </div>
+    `
+  }
+}
+
+formularioRegistro.addEventListener("submit", (event) => {
+  event.preventDefault()
+  usuarios.push({
+    nombre: formularioRegistro.nombre.value,
+    email: formularioRegistro.email.value,
+    telefono: formularioRegistro.telefono.value,
+    llegada: formularioRegistro.llegada.value,
+    salida: formularioRegistro.salida.value,
+    habitacion: formularioRegistro.habitacion.value,
+    mensaje: formularioRegistro.mensaje.value,
+  })
+  formularioRegistro.reset()
+  renderizarUsuarios()
+})
+
+
